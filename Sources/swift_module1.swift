@@ -1,5 +1,5 @@
 public struct swift_module1 {
 
-    var text = "Hello, World!"
+    static var text = "Hello, World!"
 }
 
