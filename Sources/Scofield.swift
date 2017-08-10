@@ -1,4 +1,4 @@
-public struct Struct1 {
+public struct Scofield {
 
     var text = "Hello, World!";
 
