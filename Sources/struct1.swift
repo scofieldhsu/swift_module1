@@ -1,5 +1,9 @@
 public struct struct1 {
 
-    static var text = "Hello, World!"
+    var text = "Hello, World!";
+
+    public static func hi() {
+        print("hi");
+    }
 }
 
