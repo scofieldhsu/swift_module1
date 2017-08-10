@@ -1,4 +1,4 @@
-public struct swift_module1 {
+public struct struct1 {
 
     static var text = "Hello, World!"
 }
