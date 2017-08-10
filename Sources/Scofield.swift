@@ -1,9 +1,16 @@
 public struct Scofield {
+	var greeting = "Hello!";
 
-    var text = "Hello, World!";
+	public init() {
+		greeting += "Stranger";
+	}
 
-    public static func hi() {
-        print("hi");
-    }
+	public init(_ name: String) {
+		greeting += name;
+	}
+
+	public func hi() {
+		print(greeting);
+	}
 }
 
